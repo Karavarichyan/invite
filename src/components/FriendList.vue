@@ -3,7 +3,7 @@
     <div v-for="(friend, index) in friends" :key="index" class="item">
       <div class="friend-info">
         <div class="friend-avatar">
-          <img src="@/assets/images/frameq.svg" alt="Avatar" />
+          <img src="@/assets/images/frameQ.svg" alt="Avatar" />
         </div>
         <span class="friend-name">{{ friend.name }}</span>
       </div>
@@ -88,6 +88,6 @@ defineProps<{
     -1px -1px 0px #000,
      1px -1px 0px #000,
     -1px  1px 0px #000,
-     1px  1px 0px #000; 
+     1px  1px 0px #000;
 }
 </style>
