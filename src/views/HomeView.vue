@@ -1,6 +1,6 @@
 <template>
   <div class="home-view">
- <Header />
+    <Header />
     <ButtonsContainer />
     <div class="buttons-container">
       <MoreBonuses />
@@ -16,15 +16,14 @@
 </template>
 
 <script setup lang="ts">
-import ButtonsContainer from '../components/ButtonsContainer.vue';
-import ClaimButton from '../components/ClaimButton.vue';
-import FriendList from '../components/FriendList.vue';
-import Header from '../components/Header.vue';
-
+import ButtonsContainer from '../components/ButtonsContainer.vue'
+import ClaimButton from '../components/ClaimButton.vue'
+import FriendList from '../components/FriendList.vue'
+import Header from '../components/Header.vue'
 
 interface Friend {
-  name: string;
-  level: number;
+  name: string
+  level: number
 }
 
 const friends: Friend[] = [
@@ -34,15 +33,14 @@ const friends: Friend[] = [
   { name: 'Diana', level: 15 },
   { name: 'Nikita', level: 99 },
   { name: 'Nikita', level: 99 },
-];
+]
 </script>
 
 <style scoped>
 .home-view {
-     background: radial-gradient(#41AEE7, #054BA6);
+  background: radial-gradient(#41aee7, #054ba6);
 
-
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
   font-family: Arial, sans-serif;
   padding: 20px;
@@ -68,7 +66,7 @@ const friends: Friend[] = [
 
 .friends-title {
   font-family: 'Lato', sans-serif;
-    text-shadow: 1px 0px #000;
+  text-shadow: 1px 0px #000;
   margin: 5px 0;
   font-size: 20px;
 }
