@@ -1,7 +1,7 @@
 <template>
   <div class="center-container">
     <div class="button-overlay">
-      <CustomButton variant="yellow">
+      <CustomButton option="yellow">
         <div class="button-content">
           Claim
           <img src="@/assets/images/dolar.svg" alt="Copy Icon" class="svg-icon" />

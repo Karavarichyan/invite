@@ -4,8 +4,8 @@
       <img src="@/assets/images/Framer.png" alt="Invite Friends" />
 
       <div class="button-overlay buttons-wrapper">
-        <CustomButton variant="blue"> Invite </CustomButton>
-        <CustomButton variant="blue">
+        <CustomButton option="blue"> Invite </CustomButton>
+        <CustomButton option="blue">
           <Link :size="16" />
         </CustomButton>
       </div>

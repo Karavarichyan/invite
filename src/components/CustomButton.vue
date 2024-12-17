@@ -1,5 +1,5 @@
 <template>
-  <div class="button-wrapper" :class="variant">
+  <div class="button-wrapper" :class="option">
     <button class="fonts">
       <slot></slot>
     </button>
@@ -12,7 +12,7 @@
 <script lang="ts" setup>
 import { defineProps } from 'vue'
 
-defineProps<{ variant: 'yellow' | 'blue' }>()
+defineProps<{ option: 'yellow' | 'blue' }>()
 </script>
 
 <style scoped>

@@ -4,7 +4,7 @@
       <img src="@/assets/images/FrameL.png" alt="More Bonuses" />
 
       <div class="button-overlay">
-        <CustomButton variant="yellow"> More bonuses </CustomButton>
+        <CustomButton option="yellow"> More bonuses </CustomButton>
       </div>
     </div>
   </div>
